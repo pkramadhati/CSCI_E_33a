@@ -1,0 +1,171 @@
+#NavigationBar{
+margin-top: 10px;
+padding: 8px;
+}
+#NavigationBar .nav-link {
+    color:#222;
+}
+
+#NavigationBar .nav-link:hover{
+    text-decoration: underline;
+}
+
+#GoogleLogo{
+    margin-top: 100px;
+}
+
+#GoogleLogo img{
+    width: auto;
+    max-height: 92px;
+}
+
+#NavigationBar img{
+    width: 74px;
+    max-height: 24px;  
+}
+
+.fa-search{
+ font-size: 20px;
+ color: #777;  
+}
+
+#advancedSearchLabel{
+ margin: 25px 35px;
+ font-size: 22px; 
+ font-weight: 500;
+ color: #d93025;
+ line-height: 22px;
+ font-family: arial,sans-serif; 
+}
+
+#findPagesLabel{
+ margin-top: 25px; 
+ margin-bottom:20px;
+ margin-left:35px;
+ font-size: 18px;
+ color: #333;
+ font-weight: 500;
+ min-height: 42px; 
+ font-family: arial,sans-serif;    
+}
+
+.advancedSearchText{
+ margin-left:35px;
+ color: #222;
+ min-width: 167px;
+ height: 42px;
+ font-size: 14px;
+ font-family: arial,sans-serif; 
+}
+.advancedSearchText .labelCol{
+ min-width: 167px;
+ max-width: 180px;
+ line-height: 30px;
+}
+
+.advancedSearchText .inputCol{
+ border-radius: 1px;
+ border: 1px solid #8a8a8a;
+ height: 30px;
+ padding: 1px 8px;
+ max-width: 554px;
+}
+
+.advancedSearchText input{
+ width:100%;
+ outline: none;
+ border: none;
+ text-align: start;
+}
+
+.btn-primary input{
+ outline: none;
+ border: none; 
+ padding: 0 10px;
+ background-color:#0d6efd;
+ color: #fff;
+ text-align: center;
+}
+
+#advancedSearchButton{
+ margin-top: 20px;
+ margin-left: 600px;
+    
+}
+#advancedSearchButton .btn{
+  display:flex;
+  justify-content: center;
+  width: 160px;
+  font-weight: 600;
+}
+hr{
+    color: #c3c9cf;
+}
+
+#SearchBar{
+    width:100%;
+    max-width: 584px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    padding:0px 20px 0 14px;
+    margin-top: 20px;
+    }
+#SearchBar:hover {
+        box-shadow:2px 2px 2px 1px rgba(0,0,0,.1);
+        border: 1px solid #dadce0;
+    } 
+
+.icon{
+        max-width: 20px;
+        padding: 0;
+    }
+svg{
+    margin-top: -5px;
+    color:#9aa0a6
+}
+#SearchBar input{
+    width:100%;
+    outline: none;
+    border: none;
+    text-align: start;
+    font-size: 14px;
+    font-family: arial,sans-serif;  
+}
+#SearchButtons{
+    padding-top: 18px;
+    width:100%;
+}
+button{
+    outline: none;
+    border: none; 
+    background-color: #fff;
+}
+.ActionButtons{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 4px 16px 0px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    width:150px;
+    text-align: center;
+}
+.ActionButtons>input{
+    outline: none;
+    border: none;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.ActionButtons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
