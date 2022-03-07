@@ -13,12 +13,12 @@ h1 {
 }
 
 textarea {
-    height: 90vh;
+    height: 70vh;
     width: 80%;
 }
 
 .main {
-    padding: 10px;
+    padding: 30px;
 }
 
 .search {
@@ -35,4 +35,8 @@ textarea {
 
 .sidebar h2 {
     margin-top: 5px;
+}
+
+.form{
+    padding:10px;
 }
